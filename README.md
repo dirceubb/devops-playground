@@ -53,9 +53,9 @@ http://localhost:7474/db/neo4j/tx/commit
 
 ## Technical Stories
 We are looking to improve the given starting point and continue adding more stages to the life cycle. As a devops engineer you could contribute on these:
-- As a developer, I want to test my branches before merging to main, so I don't make untested changes in live infrastructure. 
-- As an infrastructure engineer, I want Neo4j to hold state in a persistent volume, so when pod restarts I keep the data.
-- As a devops engineer, I want a workflow for merging into main that applies infra changes, so we avoid manual changes.
+- As a developer, I want to test my branches before merging to main, so I don't make untested changes in live infrastructure. *
+- As an infrastructure engineer, I want Neo4j to hold state in a persistent volume, so when pod restarts I keep the data. *
+- As a devops engineer, I want a workflow for merging into main that applies infra changes, so we avoid manual changes. *
 - As a devops engineer, I want to test that the data was loaded, so my confidence increases. 
 - As a service manager, I want to provision new Neo4j instances by using blue-green deployment, so that, there is no downtime. Use the two data releases provided.
 

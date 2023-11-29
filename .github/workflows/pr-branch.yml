@@ -1,9 +1,8 @@
 name: Building push on branches script
 run-name: "${{ github.actor }} - ${{ github.ref }} - # ${{ github.run_number }} 🚀"
 on:
-  push:
-    branches-ignore:
-      - main
+  pull_request:
+    branches: main
 jobs:
   build-push-on-branches-script:
     runs-on: ubuntu-latest
